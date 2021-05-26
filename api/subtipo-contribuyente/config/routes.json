@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/subtipo-contribuyentes",
+      "handler": "subtipo-contribuyente.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/subtipo-contribuyentes/count",
+      "handler": "subtipo-contribuyente.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/subtipo-contribuyentes/:id",
+      "handler": "subtipo-contribuyente.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/subtipo-contribuyentes",
+      "handler": "subtipo-contribuyente.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/subtipo-contribuyentes/:id",
+      "handler": "subtipo-contribuyente.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/subtipo-contribuyentes/:id",
+      "handler": "subtipo-contribuyente.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

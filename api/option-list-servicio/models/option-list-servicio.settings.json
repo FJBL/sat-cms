@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "option_list_servicios",
+  "info": {
+    "name": "optionList_servicio",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "toLink": {
+      "type": "string"
+    },
+    "tramites_servicio": {
+      "via": "option_list_servicios",
+      "model": "tramites-servicio"
+    },
+    "id_tramite_servicio": {
+      "type": "string"
+    }
+  }
+}

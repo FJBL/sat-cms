@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tramites-servicios",
+      "handler": "tramites-servicio.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tramites-servicios/count",
+      "handler": "tramites-servicio.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tramites-servicios/:id",
+      "handler": "tramites-servicio.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tramites-servicios",
+      "handler": "tramites-servicio.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tramites-servicios/:id",
+      "handler": "tramites-servicio.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tramites-servicios/:id",
+      "handler": "tramites-servicio.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

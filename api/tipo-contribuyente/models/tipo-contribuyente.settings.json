@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tipo_contribuyentes",
+  "info": {
+    "name": "tipo_contribuyente",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "personType": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "toLink": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtipo_contribuyentes": {
+      "collection": "subtipo-contribuyente",
+      "via": "tipo_contribuyente"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tramites_servicios",
+  "info": {
+    "name": "tramites_servicio",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "toLink": {
+      "type": "string"
+    },
+    "personType": {
+      "type": "string"
+    },
+    "icon": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "option_list_servicios": {
+      "via": "tramites_servicio",
+      "collection": "option-list-servicio"
+    }
+  }
+}
