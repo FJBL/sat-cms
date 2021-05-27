@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "carousels",
+  "info": {
+    "name": "carousel",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "alt": {
+      "type": "string"
+    },
+    "ariaLabel": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "personType": {
+      "type": "string"
+    },
+    "srcImage": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "internal_link_carousels": {
+      "collection": "internal-link-carousel",
+      "via": "carousel"
+    }
+  }
+}

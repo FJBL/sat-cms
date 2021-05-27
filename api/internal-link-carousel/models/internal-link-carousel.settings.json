@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "internal_link_carousel_s",
+  "info": {
+    "name": "internalLinkCarousel "
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "tolink": {
+      "type": "string"
+    },
+    "id_link_corousel": {
+      "type": "string"
+    },
+    "carousel": {
+      "via": "internal_link_carousels",
+      "model": "carousel"
+    }
+  }
+}
