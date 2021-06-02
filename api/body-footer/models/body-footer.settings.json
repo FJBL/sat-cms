@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "body_footers",
+  "info": {
+    "name": "BodyFooter"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "target": {
+      "type": "string"
+    },
+    "toLink": {
+      "type": "string"
+    },
+    "id_body_footer": {
+      "type": "string"
+    }
+  }
+}
