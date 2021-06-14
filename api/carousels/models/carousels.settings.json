@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "carousels",
   "info": {
-    "name": "carousel",
+    "name": "carousels",
     "description": ""
   },
   "options": {
@@ -21,11 +21,14 @@
     "title": {
       "type": "string"
     },
-    "personType": {
-      "type": "string"
+    "contribuyente": {
+      "model": "contribuyente"
+    },
+    "subtipo_contribuyente": {
+      "model": "subtipo-contribuyente"
     },
     "srcImage": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images",
@@ -37,8 +40,8 @@
       "pluginOptions": {}
     },
     "internal_link_carousels": {
-      "collection": "internal-link-carousel",
-      "via": "carousel"
+      "via": "carousel",
+      "collection": "internal-link-carousel"
     }
   }
 }

@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "option_list_servicios",
   "info": {
-    "name": "optionList_servicio",
+    "name": "option-list-servicio",
     "description": ""
   },
   "options": {
@@ -21,9 +21,6 @@
     "tramites_servicio": {
       "via": "option_list_servicios",
       "model": "tramites-servicio"
-    },
-    "id_tramite_servicio": {
-      "type": "string"
     }
   }
 }

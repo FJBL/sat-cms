@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "tramites_servicios",
   "info": {
-    "name": "tramites_servicio",
+    "name": "tramites-servicio",
     "description": ""
   },
   "options": {
@@ -21,8 +21,12 @@
     "personType": {
       "type": "string"
     },
+    "option_list_servicios": {
+      "via": "tramites_servicio",
+      "collection": "option-list-servicio"
+    },
     "icon": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images",
@@ -33,9 +37,11 @@
       "required": false,
       "pluginOptions": {}
     },
-    "option_list_servicios": {
-      "via": "tramites_servicio",
-      "collection": "option-list-servicio"
+    "contribuyente": {
+      "model": "contribuyente"
+    },
+    "subtipo_contribuyente": {
+      "model": "subtipo-contribuyente"
     }
   }
 }
