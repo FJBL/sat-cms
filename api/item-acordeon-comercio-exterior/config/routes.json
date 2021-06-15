@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/item-acordeon-comercio-exteriors",
+      "handler": "item-acordeon-comercio-exterior.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/item-acordeon-comercio-exteriors/count",
+      "handler": "item-acordeon-comercio-exterior.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/item-acordeon-comercio-exteriors/:id",
+      "handler": "item-acordeon-comercio-exterior.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/item-acordeon-comercio-exteriors",
+      "handler": "item-acordeon-comercio-exterior.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/item-acordeon-comercio-exteriors/:id",
+      "handler": "item-acordeon-comercio-exterior.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/item-acordeon-comercio-exteriors/:id",
+      "handler": "item-acordeon-comercio-exterior.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

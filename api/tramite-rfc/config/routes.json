@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tramite-rfcs",
+      "handler": "tramite-rfc.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tramite-rfcs/count",
+      "handler": "tramite-rfc.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tramite-rfcs/:id",
+      "handler": "tramite-rfc.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tramite-rfcs",
+      "handler": "tramite-rfc.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tramite-rfcs/:id",
+      "handler": "tramite-rfc.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tramite-rfcs/:id",
+      "handler": "tramite-rfc.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

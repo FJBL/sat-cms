@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/item-acordeon-factura-electronicas",
+      "handler": "item-acordeon-factura-electronica.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/item-acordeon-factura-electronicas/count",
+      "handler": "item-acordeon-factura-electronica.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/item-acordeon-factura-electronicas/:id",
+      "handler": "item-acordeon-factura-electronica.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/item-acordeon-factura-electronicas",
+      "handler": "item-acordeon-factura-electronica.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/item-acordeon-factura-electronicas/:id",
+      "handler": "item-acordeon-factura-electronica.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/item-acordeon-factura-electronicas/:id",
+      "handler": "item-acordeon-factura-electronica.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

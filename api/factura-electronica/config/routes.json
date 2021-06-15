@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/factura-electronicas",
+      "handler": "factura-electronica.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/factura-electronicas/count",
+      "handler": "factura-electronica.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/factura-electronicas/:id",
+      "handler": "factura-electronica.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/factura-electronicas",
+      "handler": "factura-electronica.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/factura-electronicas/:id",
+      "handler": "factura-electronica.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/factura-electronicas/:id",
+      "handler": "factura-electronica.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tramite_rfcs",
+  "info": {
+    "name": "TramiteRfc",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "personType": {
+      "type": "string"
+    },
+    "item_acordeon_tramite_rfcs": {
+      "collection": "item-acordeon-tramite-rfc",
+      "via": "tramite_rfc"
+    }
+  }
+}

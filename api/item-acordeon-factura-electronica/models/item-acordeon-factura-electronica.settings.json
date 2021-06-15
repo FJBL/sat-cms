@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "item_acordeon_factura_electronicas",
+  "info": {
+    "name": "ItemAcordeonFacturaElectronica"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "toLink": {
+      "type": "string"
+    },
+    "id_factura_electronica": {
+      "type": "string"
+    },
+    "factura_electronica": {
+      "via": "item_acordeon_factura_electronicas",
+      "model": "factura-electronica"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/comercio-exteriors",
+      "handler": "comercio-exterior.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/comercio-exteriors/count",
+      "handler": "comercio-exterior.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/comercio-exteriors/:id",
+      "handler": "comercio-exterior.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/comercio-exteriors",
+      "handler": "comercio-exterior.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/comercio-exteriors/:id",
+      "handler": "comercio-exterior.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/comercio-exteriors/:id",
+      "handler": "comercio-exterior.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

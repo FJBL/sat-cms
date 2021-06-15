@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "item_acordeon_comercio_exteriors",
+  "info": {
+    "name": "itemAcordeonComercioExterior",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "toLink": {
+      "type": "string"
+    },
+    "id_comercio_exterior": {
+      "type": "string"
+    },
+    "comercio_exterior": {
+      "via": "item_acordeon_comercio_exteriors",
+      "model": "comercio-exterior"
+    }
+  }
+}
