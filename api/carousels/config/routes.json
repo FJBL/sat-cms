@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/submenus",
-      "handler": "submenu.find",
+      "path": "/carousels",
+      "handler": "carousels.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/submenus/count",
-      "handler": "submenu.count",
+      "path": "/carousels/count",
+      "handler": "carousels.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/submenus/:id",
-      "handler": "submenu.findOne",
+      "path": "/carousels/:id",
+      "handler": "carousels.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/submenus",
-      "handler": "submenu.create",
+      "path": "/carousels",
+      "handler": "carousels.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/submenus/:id",
-      "handler": "submenu.update",
+      "path": "/carousels/:id",
+      "handler": "carousels.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/submenus/:id",
-      "handler": "submenu.delete",
+      "path": "/carousels/:id",
+      "handler": "carousels.delete",
       "config": {
         "policies": []
       }

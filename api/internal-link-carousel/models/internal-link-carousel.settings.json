@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "internal_link_carousel_s",
+  "collectionName": "internal_link_carousels",
   "info": {
-    "name": "internalLinkCarousel "
+    "name": "internal_link_carousel"
   },
   "options": {
     "increments": true,
@@ -17,12 +17,9 @@
     "tolink": {
       "type": "string"
     },
-    "id_link_corousel": {
-      "type": "string"
-    },
     "carousel": {
-      "via": "internal_link_carousels",
-      "model": "carousel"
+      "model": "carousels",
+      "via": "internal_link_carousels"
     }
   }
 }

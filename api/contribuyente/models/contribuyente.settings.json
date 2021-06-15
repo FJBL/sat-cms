@@ -1,20 +1,15 @@
 {
   "kind": "collectionType",
-  "collectionName": "tipo_contribuyentes",
+  "collectionName": "contribuyentes",
   "info": {
-    "name": "tipo_contribuyente",
-    "description": ""
+    "name": "contribuyente"
   },
   "options": {
     "increments": true,
     "timestamps": true,
     "draftAndPublish": true
   },
-  "pluginOptions": {},
   "attributes": {
-    "personType": {
-      "type": "string"
-    },
     "label": {
       "type": "string"
     },
@@ -24,9 +19,12 @@
     "title": {
       "type": "string"
     },
+    "personType": {
+      "type": "string"
+    },
     "subtipo_contribuyentes": {
-      "collection": "subtipo-contribuyente",
-      "via": "tipo_contribuyente"
+      "via": "contribuyente",
+      "collection": "subtipo-contribuyente"
     }
   }
 }

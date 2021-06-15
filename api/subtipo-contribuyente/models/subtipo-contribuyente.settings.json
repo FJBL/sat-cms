@@ -2,14 +2,14 @@
   "kind": "collectionType",
   "collectionName": "subtipo_contribuyentes",
   "info": {
-    "name": "subtipo_contribuyente"
+    "name": "subtipo_contribuyente",
+    "description": ""
   },
   "options": {
     "increments": true,
     "timestamps": true,
     "draftAndPublish": true
   },
-  "pluginOptions": {},
   "attributes": {
     "label": {
       "type": "string"
@@ -17,9 +17,15 @@
     "toLink": {
       "type": "string"
     },
-    "tipo_contribuyente": {
-      "via": "subtipo_contribuyentes",
-      "model": "tipo-contribuyente"
+    "contribuyente": {
+      "model": "contribuyente",
+      "via": "subtipo_contribuyentes"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtypePerson": {
+      "type": "string"
     }
   }
 }
