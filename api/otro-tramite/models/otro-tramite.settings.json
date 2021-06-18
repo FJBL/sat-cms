@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "otro_tramites",
+  "info": {
+    "name": "OtroTramite",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "personType": {
+      "type": "string"
+    },
+    "item_acordeon_otro_tramites": {
+      "collection": "item-acordeon-otro-tramite",
+      "via": "otro_tramite"
+    }
+  }
+}

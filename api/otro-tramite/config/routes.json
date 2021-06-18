@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/otro-tramites",
+      "handler": "otro-tramite.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/otro-tramites/count",
+      "handler": "otro-tramite.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/otro-tramites/:id",
+      "handler": "otro-tramite.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/otro-tramites",
+      "handler": "otro-tramite.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/otro-tramites/:id",
+      "handler": "otro-tramite.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/otro-tramites/:id",
+      "handler": "otro-tramite.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

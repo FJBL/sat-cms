@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "item_acordeon_declaracions",
+  "info": {
+    "name": "ItemAcordeonDeclaracion"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "toLink": {
+      "type": "string"
+    },
+    "Id_declaracion": {
+      "type": "string"
+    },
+    "declaracione": {
+      "via": "item_acordeon_declaracions",
+      "model": "declaraciones"
+    }
+  }
+}

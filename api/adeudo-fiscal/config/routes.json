@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/adeudo-fiscals",
+      "handler": "adeudo-fiscal.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/adeudo-fiscals/count",
+      "handler": "adeudo-fiscal.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/adeudo-fiscals/:id",
+      "handler": "adeudo-fiscal.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/adeudo-fiscals",
+      "handler": "adeudo-fiscal.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/adeudo-fiscals/:id",
+      "handler": "adeudo-fiscal.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/adeudo-fiscals/:id",
+      "handler": "adeudo-fiscal.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

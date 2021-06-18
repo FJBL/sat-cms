@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/item-acordeon-otro-tramites",
+      "handler": "item-acordeon-otro-tramite.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/item-acordeon-otro-tramites/count",
+      "handler": "item-acordeon-otro-tramite.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/item-acordeon-otro-tramites/:id",
+      "handler": "item-acordeon-otro-tramite.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/item-acordeon-otro-tramites",
+      "handler": "item-acordeon-otro-tramite.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/item-acordeon-otro-tramites/:id",
+      "handler": "item-acordeon-otro-tramite.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/item-acordeon-otro-tramites/:id",
+      "handler": "item-acordeon-otro-tramite.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

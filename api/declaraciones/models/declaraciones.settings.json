@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "declaraciones",
+  "info": {
+    "name": "Declaraciones",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "personType": {
+      "type": "string"
+    },
+    "item_acordeon_declaracions": {
+      "collection": "item-acordeon-declaracion",
+      "via": "declaracione"
+    }
+  }
+}

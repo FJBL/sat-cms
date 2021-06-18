@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/item-acordeon-adeudo-fiscals",
+      "handler": "item-acordeon-adeudo-fiscal.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/item-acordeon-adeudo-fiscals/count",
+      "handler": "item-acordeon-adeudo-fiscal.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/item-acordeon-adeudo-fiscals/:id",
+      "handler": "item-acordeon-adeudo-fiscal.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/item-acordeon-adeudo-fiscals",
+      "handler": "item-acordeon-adeudo-fiscal.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/item-acordeon-adeudo-fiscals/:id",
+      "handler": "item-acordeon-adeudo-fiscal.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/item-acordeon-adeudo-fiscals/:id",
+      "handler": "item-acordeon-adeudo-fiscal.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

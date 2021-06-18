@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "item_acordeon_otro_tramites",
+  "info": {
+    "name": "ItemAcordeonOtroTramite"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "toLink": {
+      "type": "string"
+    },
+    "Id_otro_tramite": {
+      "type": "string"
+    },
+    "otro_tramite": {
+      "via": "item_acordeon_otro_tramites",
+      "model": "otro-tramite"
+    }
+  }
+}

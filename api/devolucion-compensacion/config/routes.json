@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/devolucion-compensacions",
+      "handler": "devolucion-compensacion.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/devolucion-compensacions/count",
+      "handler": "devolucion-compensacion.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/devolucion-compensacions/:id",
+      "handler": "devolucion-compensacion.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/devolucion-compensacions",
+      "handler": "devolucion-compensacion.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/devolucion-compensacions/:id",
+      "handler": "devolucion-compensacion.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/devolucion-compensacions/:id",
+      "handler": "devolucion-compensacion.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

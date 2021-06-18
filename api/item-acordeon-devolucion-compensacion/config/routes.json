@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/item-acordeon-devolucion-compensacions",
+      "handler": "item-acordeon-devolucion-compensacion.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/item-acordeon-devolucion-compensacions/count",
+      "handler": "item-acordeon-devolucion-compensacion.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/item-acordeon-devolucion-compensacions/:id",
+      "handler": "item-acordeon-devolucion-compensacion.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/item-acordeon-devolucion-compensacions",
+      "handler": "item-acordeon-devolucion-compensacion.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/item-acordeon-devolucion-compensacions/:id",
+      "handler": "item-acordeon-devolucion-compensacion.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/item-acordeon-devolucion-compensacions/:id",
+      "handler": "item-acordeon-devolucion-compensacion.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

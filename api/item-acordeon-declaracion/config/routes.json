@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/item-acordeon-declaracions",
+      "handler": "item-acordeon-declaracion.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/item-acordeon-declaracions/count",
+      "handler": "item-acordeon-declaracion.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/item-acordeon-declaracions/:id",
+      "handler": "item-acordeon-declaracion.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/item-acordeon-declaracions",
+      "handler": "item-acordeon-declaracion.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/item-acordeon-declaracions/:id",
+      "handler": "item-acordeon-declaracion.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/item-acordeon-declaracions/:id",
+      "handler": "item-acordeon-declaracion.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

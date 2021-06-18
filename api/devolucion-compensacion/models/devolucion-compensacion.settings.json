@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "devolucion_compensacions",
+  "info": {
+    "name": "DevolucionCompensacion",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "personType": {
+      "type": "string"
+    },
+    "item_acordeon_devolucion_compensacions": {
+      "collection": "item-acordeon-devolucion-compensacion",
+      "via": "devolucion_compensacion"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "item_acordeon_adeudo_fiscals",
+  "info": {
+    "name": "ItemAcordeonAdeudoFiscal"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "toLink": {
+      "type": "string"
+    },
+    "Id_adeudo_fiscal": {
+      "type": "string"
+    },
+    "adeudo_fiscal": {
+      "via": "item_acordeon_adeudo_fiscals",
+      "model": "adeudo-fiscal"
+    }
+  }
+}
